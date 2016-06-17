@@ -14,6 +14,8 @@
 		C96741E61D136C1200049B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96741E41D136C1200049B0D /* LaunchScreen.storyboard */; };
 		C96741F11D136C1200049B0D /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96741F01D136C1200049B0D /* TinderTests.swift */; };
 		C96741FC1D136C1200049B0D /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96741FB1D136C1200049B0D /* TinderUITests.swift */; };
+		C967420A1D136D6800049B0D /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96742091D136D6800049B0D /* CardsViewController.swift */; };
+		C967420C1D138F6800049B0D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C967420B1D138F6800049B0D /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C96741F71D136C1200049B0D /* TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96741FB1D136C1200049B0D /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
 		C96741FD1D136C1200049B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96742091D136D6800049B0D /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		C967420B1D138F6800049B0D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				C96741DB1D136C1200049B0D /* AppDelegate.swift */,
 				C96741DD1D136C1200049B0D /* ViewController.swift */,
 				C96741DF1D136C1200049B0D /* Main.storyboard */,
+				C967420B1D138F6800049B0D /* ProfileViewController.swift */,
+				C96742091D136D6800049B0D /* CardsViewController.swift */,
 				C96741E21D136C1200049B0D /* Assets.xcassets */,
 				C96741E41D136C1200049B0D /* LaunchScreen.storyboard */,
 				C96741E71D136C1200049B0D /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				C96741DE1D136C1200049B0D /* ViewController.swift in Sources */,
 				C96741DC1D136C1200049B0D /* AppDelegate.swift in Sources */,
+				C967420C1D138F6800049B0D /* ProfileViewController.swift in Sources */,
+				C967420A1D136D6800049B0D /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
